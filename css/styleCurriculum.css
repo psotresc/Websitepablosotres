@@ -1,0 +1,60 @@
+
+.middle {
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    translate: -50, 50px; */
+    
+}
+
+.menu{
+    width: 100vw;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item {
+    border-top: 1px solid white;
+    overflow: hidden;
+}
+
+.btn{
+    
+    display: block;
+    padding: 16px 20px;
+    background-color: black;
+    color:white;
+    position: relative;
+
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: black;
+    left: 20px;
+    bottom: -7px;
+    transform:rotate(45deg)
+}
+.smenu{
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+}
+.smenu ul li{
+    
+    padding-left: 5px;
+}
+
+.smenu ul:hover:before{
+    opacity: 1;
+}
+
+.item:target .smenu{
+    max-height: 100em;
+}
+i{
+    color: white;
+    text-align: center; 
+}

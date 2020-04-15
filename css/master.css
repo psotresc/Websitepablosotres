@@ -1,0 +1,94 @@
+@import url("https://use.typekit.net/cuh5zzs.css");
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap'); */
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 .h1w{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+h1 .h1b{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+p .p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* COMIENZA NAV XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    transition: .5s;
+    overflow: auto;
+    background-color: black;
+
+}
+
+.nombre{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+nav .logo {
+    float: left;
+}
+
+nav .logo img{
+    height: 80px;
+    transition: .5s;
+    /* position: absolute;
+    margin-top: 15px;
+    ; */
+    margin-left: 20px;
+}
+
+nav ul{
+    float: right;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: white;
+    padding: 5px 30px;
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: .5s;
+} 
+
+nav ul li a.active{
+    color: #ffffff;
+    background: #8F0000 ;
+    
+}
+
