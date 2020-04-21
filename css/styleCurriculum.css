@@ -1,10 +1,35 @@
+.menus{
+
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1vh;
+
+}
+
+.logo {
+    height: 50px;
+    transition: .5s;
+    margin-left: 30px;
+
+}
+
+.logoText{
+  font-family: 'Teko', sans-serif;
+  font-size: 3vh;
+  color: white;
+  transition: .5s;
+  display:inline;
+  margin-left: 10px;
+
+}
 
 .middle {
     position: absolute;
     /* top: 50%;
     left: 50%;
     translate: -50, 50px; */
-    
+
 }
 
 .menu{
@@ -19,7 +44,7 @@
 }
 
 .btn{
-    
+
     display: block;
     padding: 16px 20px;
     background-color: black;
@@ -43,7 +68,7 @@
     max-height: 0;
 }
 .smenu ul li{
-    
+
     padding-left: 5px;
 }
 
@@ -56,5 +81,5 @@
 }
 i{
     color: white;
-    text-align: center; 
+    text-align: center;
 }

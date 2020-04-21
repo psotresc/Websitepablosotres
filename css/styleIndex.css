@@ -1,5 +1,26 @@
+h1 {
+  color: white;
+  font-family: 'Teko', sans-serif;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
+
 nav {
   background-color: #000000;
+}
+
+input, textarea {
+  width: 70vh;
 }
 
 .menus{
@@ -57,9 +78,12 @@ nav {
 }
 
 .contacto{
-  padding-left: 30px;
   margin-top: 10px;
   width: 100%;
+}
+.informacion{
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 .titulo{
@@ -76,9 +100,13 @@ nav {
     font-weight: 700;
     font-size: 1rem;
     color: white;
-
 }
 
+
+.subtitulo a{
+
+    color: white;
+}
 .escritor{
     color:white;
     font-family: 'Inconsolata', monospace;

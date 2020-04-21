@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="css/styleIndex.css">
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"> </script>
     <script src="scripts/scriptIndex.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="contactJs.js"></script>
 
 </head>
 
 <body>
-  <nav class= "navbar fixed-top navbar-expand-lg navbar-dark">
+  <nav class= "navbar fixed-top navbar-expand-lg navbar-light">
     <!-- LOGO -->
-    <a href="#" class="navbar-brand"><img class="logo" src="imagenes/logo.png">
+    <a href="index.html" class="navbar-brand"><img class="logo" src="imagenes/logo.png">
     <!-- NOMBRE -->
       <p class="logoText">PABLO SOTRES -CASTREJON</p>
     </a>
@@ -35,7 +37,7 @@
             <a href="portafolio.html" class="menus">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a href="cv.html" class="menus">CV</a>
+            <a href="curriculum.html" class="menus">CV</a>
           </li>
           <li class="nav-item">
             <a href="investigacion.html" class="menus">Investigación</a>
@@ -67,16 +69,16 @@
       <br>
       <br>
       <a href="http://"></a>
-      <h6 class = "subtitulo" > <a href = "#acercademi" > Portafolio </a></h6>
-      <h6 class = "subtitulo" > <a href = "#acercademi" > Acerca de mi </a></h6>
-      <h6 class = "subtitulo" > <a href = "#acercademi" > Investigación </a></h6>
+      <h6 class = "subtitulo" > <a href = "portafolio.html" >   > Portafolio </a></h6>
+      <h6 class = "subtitulo" > <a href = "acercademi.html" >   > Acerca de mi </a></h6>
+      <h6 class = "subtitulo" > <a href = "contacto.html" >   > Contacto </a></h6>
 
   </div>
   <div class="acerca">
     <h1 style="color:black">Acerca de mi</h1>
     <hr>
     <p class="aboutme">Pablo Sotres-Castrejón (Ciudad de México, 1990) es un desarrollador creativo, diseñador interactivo,  investigador y artista digital que reside en la Ciudad de México. Ha colaborado en proyectos de diversas industrias como museos, gobierno y música. Siendo expuesto en espacios como el Centro Cultural El Rule o la Biblioteca de la Ciudad de México, espacios públicos de la ciudad de México, y presentaciones alrededor de la República mexicana, incluyendo dos Auditorios Nacionales.</p>
-    <button class="btnNegro">Ver más</button>
+    <button class="btnNegro"  onclick="location.href='acercademi.html';" >Ver más</button>
   </div>
 
   <div class="proyectos">
@@ -119,11 +121,75 @@
         <div class="negro">
           <h1 >Contacto</h1>
         </div>
+        <div>
+          <div class="informacion">
+              <h3 >Para cualquier consulta no dudes en poner en contacto a: </h3>
+              <p> - contact(at)pablosotres.com </p>
+              <p> - Tel: Cinco - Cinco 3817179857</p>
+
+            <form action="https://formspree.io/psotresc@gmail.com"  method="POST">
+                <label>
+                    Nombre:
+                    <br>
+                    <input type ="name" class="name">
+                </label>
+                <br>
+                <label>
+                    Apellido:
+                    <br>
+                    <input type ="lastName" class="lastName">
+                </label>
+                <br>
+                <label>
+                    Correo:
+                    <br>
+                    <input type ="email" name="email" class="email">
+                </label>
+                <br>
+                <label>
+                    Asunto:
+                    <br>
+                    <input type ="text" name="subject" class="subject">
+                </label>
+                <br>
+                <label >
+                    Mensaje:
+                    <br>
+                    <textarea class="message" name="message"></textarea>
+                </label>
+                <div class="status">
+
+                </div>
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+
+        </div>
+      </div>
     </div>
   </div>
 
   <footer>
-      <p>Pablo Sotres 2020. Todos los derechos reservados</p>
+    <div class="container footer-container">
+      <div class="row footer-row">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+            <h6 class="text-center">Pablo Sotres-Castrejón ©.
+              <br />
+              Todos los derechos reservados</h6>
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-6 social-section">
+          <div class="text-center">
+            <a href="https://github.com/psotresc" target="_blank"><img class="logosRedes" src="imagenes/iconos/github-icon.svg" alt="Github Icon"></a>
+            <a href="https://www.instagram.com/pablo_sotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/instagram-icon.svg" alt="Instagram Icon"></a>
+            <a href="https://twitter.com/pablosotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/twitter-icon.svg" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/in/pablosotres/" target="_blank"><img class="logosRedes" src="imagenes/iconos/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+            <a href="https://www.facebook.com/psotresc/" target="_blank"><img class="logosRedes" src="imagenes/iconos/facebook-icon.svg" alt="Facebook Icon"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="">
+
   </footer>
 
   <script src="scripts/instagram/dist/InstagramFeed.min.js"></script>

@@ -1,23 +1,12 @@
 nav {
   width: 100vw;
   padding-left: 500px;
+  background-color: white;
 
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-right: 30px;
-
-}
-
-nav li {
-  float: right;
-}
 
 .menus{
-
   font-family: 'Teko', sans-serif;
   font-size: 1.5rem;
   color: black;
@@ -37,7 +26,6 @@ nav li {
   transition: .5s;
   display:inline;
   margin-left: 10px;
-
 }
 
 
