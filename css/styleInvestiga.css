@@ -1,0 +1,28 @@
+nav {
+  width: 100vw;
+  padding-left: 500px;
+  background-color: white;
+
+}
+
+.menus{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  padding: 1vh;
+}
+
+.logo {
+    height: 50px;
+    transition: .5s;
+    margin-left: 30px;
+}
+
+.logoText{
+  font-family: 'Teko', sans-serif;
+  font-size: 3vh;
+  color: black;
+  transition: .5s;
+  display:inline;
+  margin-left: 10px;
+}

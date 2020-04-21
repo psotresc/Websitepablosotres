@@ -5,9 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pablo Sotres Castrejón - Acerca de mi</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="css/styleAcerca.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"> </script>
+
 </head>
 <body>
+  <nav class= "navbar fixed-top navbar-expand-lg navbar-light">
+    <!-- LOGO -->
+    <a href="index.html" class="navbar-brand"><img class="logo" src="imagenes/logo.png">
+    <!-- NOMBRE -->
+      <p class="logoText">PABLO SOTRES -CASTREJON</p>
+    </a>
+    <!-- COLLAPSE -->
+    <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="acercademi.html" class="menus">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a href="portafolio.html" class="menus">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="curriculum.html" class="menus">CV</a>
+          </li>
+          <li class="nav-item">
+            <a href="investigacion.html" class="menus">Investigación</a>
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html" class="menus">Contacto</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="lang" src="imagenes/iconos/language_w.svg" alt="">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item  " href="#">English</a>
+              <a class="dropdown-item " href="#">French</a>
+
+            </div>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
     <div><img src="imagenes/Yo.png"> </div>
     <div>
         <p<>Pablo Sotres-Castrejón (Ciudad de México, 1990) es un desarrollador creativo, diseñador interactivo,  investigador y artista digital que reside en la Ciudad de México. Ha colaborado en proyectos de diversas industrias como museos, gobierno y música. Siendo expuesto en espacios como el Centro Cultural El Rule o la Biblioteca de la Ciudad de México, espacios públicos de la ciudad de México, y presentaciones alrededor de la República mexicana, incluyendo dos Auditorios Nacionales. </p>
@@ -82,4 +127,7 @@
         </ul>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
