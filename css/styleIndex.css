@@ -15,84 +15,75 @@ h6 {
   color: white;
 }
 
-nav {
+/* NAV BAR ******************************************** */
+.navbar {
   background-color: #000000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 10vh;
+  max-height: 12vh;
 }
 
-input, textarea {
-  width: 70vh;
-}
-
-.menus{
-
+.nav-link{
   font-family: 'Teko', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
-  padding: 1vh;
+  background-color: black;
 
 }
 
 .logo {
-    height: 50px;
     transition: .5s;
-    margin-left: 30px;
-
+    min-width: 30px;
+    max-width: 40px;
 }
 
 .logoText{
   font-family: 'Teko', sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
   color: white;
   transition: .5s;
-  display:inline;
-  margin-left: 10px;
-
+  min-width: 160px;
+  max-width: 160px;
+  display: inline;
+  padding-left: .5vh;
 }
 
-.bienvenida{
+ion-icon {
+  color: white;
+  font-size: 4vh;
+}
+
+.navbar-toggler{
+  font-size: 40px;
+}
+
+.navbar-toggler:focus{
+  outline:none;
+}
+
+.navbar-toggle {
+    margin: 8px 15px 8px 0;
+    padding: 4px 5px;
+}
+
+
+
+/* BIENVENIDA******************************************* */
+#hero{
   background-color: black;
   height: 70vh;
-  padding: 20vh 0;
-  padding-left: 70px;
-
-}
-
-.acerca{
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-
-.instagram{
-    padding-left: 30px;
-    margin-top: 10px;
-    width: 100%;
-}
-
-.negro{
-  padding-left: 10px;
-  background-color: black;
-}
-
-.contacto{
-  margin-top: 10px;
-  width: 100%;
-}
-.informacion{
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+  padding-left: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 .titulo{
     color:white;
     font-family: 'Inconsolata', monospace;
-    font-weight: 700;
-    font-size: 3.5rem;
-    font-weight: 200;
-    margin: 0.4rem;
+    font-size: 7vh;
+
+
 }
 
 .subtitulo{
@@ -102,9 +93,7 @@ input, textarea {
     color: white;
 }
 
-
 .subtitulo a{
-
     color: white;
 }
 .escritor{
@@ -113,73 +102,171 @@ input, textarea {
     font-weight: 700;
 }
 
+/* ACERCA DE MI ******************************** */
+.acerca{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .btnNegro{
   background-color: black;
   color: white;
+  padding: 0 10vw;
 }
 
+/* PROYECTOS ********************************* */
 .proyectos{
-    /* width: 60%; */
-
-    padding-left: 20px;
-    padding-bottom: 30px;
     background-color: black;
-    justify-content: center;
+    padding-bottom: 2vw;
+}
+.contenedor{
+  max-width: 1280px;
+  margin: 0 auto ;
+}
+.section-heading {
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
     text-align: center;
+    padding-top: 1vh;
 }
 
 .gallery {
-    display: center;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 270px;
+    grid-gap: .8em;
+    grid-auto-flow: row dense;
+    font-weight: 400;
 }
 
-.gallery__img {
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    /* background-color: #333; */
+    padding: 7px;
+    margin: 3px;
+}
+
+
+div.imgWrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: inline-block;
     width: 100%;
-    height: 100%;
+    height: auto;
+    flex: 1;
     object-fit: cover;
+    transition: all 300ms ease-out;
 }
 
-.gallery__item--1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 8;
+figure:hover img {
+    transform: scale(1.2);
+    opacity: 1;
 }
 
-.gallery__item--2 {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 5;
+.two-span-row {
+    grid-row: auto / span 2;
 }
 
-.gallery__item--3 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 8;
+.two-span-column {
+    grid-column: auto / span 2;
 }
 
-.gallery__item--4 {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 8;
+.full-span-column {
+    grid-column: 1 / -1;
+    grid-row: span 1;
 }
 
-.gallery__item--5 {
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 4;
+@media (min-width: 1000px) {
+    .full-span-column {
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    }
 }
 
-.gallery__item--6 {
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 8;
+figcaption {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-top: 3px;
+    border-top: 1px solid rgba(255,255,255,1);
+    padding-top: 5px;
+    color: rgba(255,255,255,.8);
+}
+
+figcaption .a{
+  padding: 0 0;
+  margin: 0 0;
+  color: white;
+}
+
+
+@media (max-width: 550px) {
+    .gallery {
+    display: block;
+  }
+
+  figure {
+    margin-bottom: 1em;
+  }
+
+  figcaption {
+    font-size: 2rem;
+  }
+}
+.contene{
+  display: flex;
+  /* padding: 10vw; */
+  justify-content: center;
+  text-align: center;
+  padding-top: 2vh;
+}
+.botonProyectos{
+  padding: .5vh 20vw;
+  display: block;
+  border: none;
+}
+
+.vincblan{
+  color: white;
+}
+/* INSTAGRAM *************************************** */
+.instagram{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.negro{
+  background-color: black;
+  padding-left: 1vw;
+}
+
+
+/* CONTACTO ****************************************** */
+.contacto{
+  margin-top: 10px;
+}
+
+.informacion{
+  padding-bottom: 2rem;
+  /* padding-left: 1vw; */
+}
+
+input, textarea{
+  width: 40vw;
 }
