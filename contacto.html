@@ -13,33 +13,36 @@
     <script src="contactJs.js"></script>
 </head>
 <body>
-    <div>
-      <nav class= "navbar fixed-top navbar-expand-lg navbar-light">
+  <!-- NAVBAR ******************************************************* -->
+      <nav class= "navbar navbar-inverse navbar-expand-lg ">
+        <div class="container-fluid">
         <!-- LOGO -->
         <a href="index.html" class="navbar-brand"><img class="logo" src="imagenes/logo.png">
-        <!-- NOMBRE -->
-          <p class="logoText">PABLO SOTRES -CASTREJON</p>
+            <p class="logoText">PABLO SOTRES -CASTREJON</p>
         </a>
         <!-- COLLAPSE -->
         <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
+            <ion-icon name="menu"></ion-icon>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ml-auto">
+          <ul class="nav navbar-nav d-flex ml-auto">
               <li class="nav-item">
-                <a href="acercademi.html" class="menus">Acerca de mi</a>
+                <a href="index.html" class="nav-link">Inicio</a>
               </li>
               <li class="nav-item">
-                <a href="portafolio.html" class="menus">Portafolio</a>
+                <a href="acercademi.html" class="nav-link">Acerca de mi</a>
               </li>
               <li class="nav-item">
-                <a href="curriculum.html" class="menus">CV</a>
+                <a href="portafolio.html" class="nav-link">Portafolio</a>
               </li>
               <li class="nav-item">
-                <a href="investigacion.html" class="menus">Investigación</a>
+                <a href="curriculum.html" class="nav-link">CV</a>
               </li>
               <li class="nav-item">
-                <a href="contacto.html" class="menus">Contacto</a>
+                <a href="investigacion.html" class="nav-link">Investigación</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link">Contacto</a>
               </li>
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,25 +56,39 @@
               </li>
           </ul>
         </div>
-      </nav>
-        <h1>Contáctame</h1>
+      </div>
+    </nav>
+
+<div class="container">
+    <h1 class="titulo">Contáctame</h1>
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+
         <form action="https://formspree.io/psotresc@gmail.com"  method="POST">
             <label>
                 Nombre:
                 <input type ="name" class="name">
             </label>
+            <br>
+
             <label>
                 Apellido:
                 <input type ="lastName" class="lastName">
             </label>
+            <br>
+
             <label>
                 Correo:
                 <input type ="email" name="email" class="email">
             </label>
+            <br>
+
             <label>
                 Asunto:
                 <input type ="text" name="subject" class="subject">
             </label>
+            <br>
+
             <label >
                 Mensaje:
                 <textarea class="message" name="message"></textarea>
@@ -79,20 +96,60 @@
             <div class="status">
 
             </div>
-            <button type="submit" class="submit">Enviar</button>
+            <button class="botonNegro" type="submit" class="submit"><h5>Enviar</h5></button>
 
         </form>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <h2 class="titulo">Para más Información: </h2>
+          <p><b>-Correo:</b> contact(at)pablosotres.com </p>
+          <p><b>-Tel:</b>  Cinco Cinco Tres Siete Tres Siete 179857</p>
+
+          <br>
+
+          <h2 class="titulo">O en mis redes sociales: </h2>
+
+          <p>Twitter: <a href="https://twitter.com/pablosotres">@pablosotres</a> </p>
+          <br>
+          <p>Instagram <a href="https://www.instagram.com/pablo_sotres">@pablo_sotres</a> </p>
+          <br>
+          <p>Facebook <a href="https://www.facebook.com/psotresc/">Pablo Sotres</a> </p>
+          <br>
+          <p>Github <a href="https://github.com/psotresc">psotresc</a> </p>
+        </div>
     </div>
-    <div>
-        <h2>Más Información: </h2>
-        <p>contact(at)pablosotres.com </p>
-        <p>Tel: Cinco Cinco Tres Siete Tres Siete 179857</p>
     </div>
+
+    <!-- FOOTER -***************************************** -->
+    <footer>
+      <div class="container footer-container">
+        <div class="row footer-row">
+          <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+              <h6 class="text-center">Pablo Sotres-Castrejón ©.
+                <br />
+                Todos los derechos reservados</h6>
+          </div>
+          <div class="col-xs-12 col-md-6 col-sm-6 social-section">
+            <div class="text-center">
+              <a href="https://github.com/psotresc" target="_blank"><img class="logosRedes" src="imagenes/iconos/github-icon.svg" alt="Github Icon"></a>
+              <a href="https://www.instagram.com/pablo_sotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/instagram-icon.svg" alt="Instagram Icon"></a>
+              <a href="https://twitter.com/pablosotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/twitter-icon.svg" alt="Twitter Icon"></a>
+              <a href="https://www.linkedin.com/in/pablosotres/" target="_blank"><img class="logosRedes" src="imagenes/iconos/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+              <a href="https://www.facebook.com/psotresc/" target="_blank"><img class="logosRedes" src="imagenes/iconos/facebook-icon.svg" alt="Facebook Icon"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 <script src="scripts/isotope.min.js"></script>
 
 </html>

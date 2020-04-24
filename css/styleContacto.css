@@ -1,32 +1,82 @@
-nav {
-  width: 100vw;
-  padding-left: 500px;
-  background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
 
+p{
+  margin: 0;
 }
 
-.menus{
+/* NAV BAR ******************************************** */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 8vh;
+  max-height: 10vh;
+  z-index: 99999;
+}
+
+.nav-link{
   font-family: 'Teko', sans-serif;
-  font-size: 1.5rem;
-  color: black;
-  padding: 1vh;
+  font-size: 1.3rem;
+  color:black;
+  background-color: white;
 }
 
 .logo {
-    height: 50px;
     transition: .5s;
-    margin-left: 30px;
+    min-width: 30px;
+    max-width: 40px;
 }
 
 .logoText{
   font-family: 'Teko', sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
   color: black;
   transition: .5s;
-  display:inline;
-  margin-left: 10px;
+  min-width: 160px;
+  max-width: 160px;
+  display: inline;
+  padding-left: .5vh;
 }
 
-label, input, textarea{
-    display: block;
+ion-icon {
+  color: black;
+  font-size: 4vh;
+}
+
+.navbar-toggler{
+  font-size: 40px;
+}
+
+.navbar-toggler:focus{
+  outline:none;
+}
+
+.navbar-toggle {
+    margin: 8px 15px 8px 0;
+    padding: 4px 5px;
+}
+
+/* FORMATO **************************************** */
+.container{
+  padding: 2vh 2vw;
+}
+
+.titulo{
+  font-family: 'Teko', sans-serif;
+
+}
+
+.botonNegro{
+  font-family: 'Teko', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+input, textarea{
+  width: 100%
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%
 }
