@@ -1,94 +1,52 @@
-@import url("https://use.typekit.net/cuh5zzs.css");
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
 
 html,body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
-h1 .h1w{
-    font-family: acumin-pro-extra-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
-}
-
-h1 .h1b{
-    font-family: acumin-pro-extra-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: black;
+body {
+  font-family: sans-serif;
 }
 
 p .p{
-    font-family: acumin-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-/* COMIENZA NAV XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 0px;
-    box-sizing: border-box;
-    transition: .5s;
-    overflow: auto;
-    background-color: black;
+
+
+footer{
+  /* text-align: center;
+  background-color: black;
+  color: white;
+  height: 5vh;
+   */
+   font-size: 1.5em;
+   text-align: center;
+   padding:1%;
+  background-color: black;
+  color: white;
 
 }
 
-.nombre{
-    font-family: acumin-pro-extra-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
-    float: left;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-nav .logo {
-    float: left;
+.lang{
+  height: 3vh;
 }
 
-nav .logo img{
-    height: 80px;
-    transition: .5s;
-    /* position: absolute;
-    margin-top: 15px;
-    ; */
-    margin-left: 20px;
+.logosRedes{
+  height: 3.5vh;
+
 }
 
-nav ul{
-    float: right;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
+.espacioP{
+  height: 1vh;
 }
 
-nav ul li{
-    list-style: none;
-    float: left;
+.espacioM{
+  height: 3vh;
 }
 
-nav ul li a{
-    line-height: 80px;
-    color: white;
-    padding: 5px 30px;
-    font-family: 'acumin-pro', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    transition: .5s;
-} 
-
-nav ul li a.active{
-    color: #ffffff;
-    background: #8F0000 ;
-    
+.espacioG{
+  height: 5vh;
 }
-

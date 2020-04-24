@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PSC-Portafolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/stylePortafolio.css">
+
+</head>
+<body>
+  <!-- NAVBAR ******************************************************* -->
+      <nav class= "navbar navbar-inverse navbar-expand-lg ">
+        <div class="container-fluid">
+        <!-- LOGO -->
+        <a href="index.html" class="navbar-brand"><img class="logo" src="imagenes/logo.png">
+            <p class="logoText">PABLO SOTRES -CASTREJON</p>
+        </a>
+        <!-- COLLAPSE -->
+        <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="nav navbar-nav d-flex ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="acercademi.html" class="nav-link">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a href="portafolio.html" class="nav-link">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="curriculum.html" class="nav-link">CV</a>
+              </li>
+              <li class="nav-item">
+                <a href="investigacion.html" class="nav-link">Investigación</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link">Contacto</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="lang" src="imagenes/iconos/language.svg" alt="">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item  " href="#">English</a>
+                  <a class="dropdown-item " href="#">French</a>
+
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- PROYECTOS *********************************************************************************** -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+          <!-- SECCIONES ################################################################-->
+          <ul class="filters text-center">
+              <li class="active" data-filter="*"><a href="#!">Todos</a></li>
+              <li data-filter=".seleccion"><a href="#!">Selección</a></li>
+              <li data-filter=".instalaciones"><a href="#!">Instalaciones Interactivas</a></li>
+              <li data-filter=".ai"><a href="#!">Inteligencia Artificial</a></li>
+              <li data-filter=".ar"><a href="#!">Realidad Aumentada</a></li>
+              <li data-filter=".javascript"><a href="#!">Animación</a></li>
+          </ul>
+
+          <div class="projects">
+              <div class="row">
+                <!-- PROYECTO  URUGUAY-->
+                  <div class="col-lg-3 item instalaciones">
+                      <div class="card">
+                          <div class="card-head">
+                              <img src="imagenes/uruguay/20190831_150016.jpg" alt="" class="img-fluid card-img">
+                              <a href="proyectos/uruguay25.html">
+                              <div class="card-hover">
+                                  <p>Uruguay 25 es una proyecto que derivó en una instalación con 3 interactivos para generar apropiación con comerciantes.</p>
+                              </div>
+                          </div>
+
+                          <div class="card-body text-left">
+                              <h4 class="title">Uruguay 25: Tecnología y apropiación </h4>
+                              <p class="date">2019</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- PROYECTO  KOSMOS ################################################################-->
+                  <div class="col-lg-3 item ar">
+
+                      <div class="card">
+
+                          <div class="card-head">
+                              <img src="imagenes/kosmos/tablero.jpg" alt="humboldtKosmos" class="img-fluid card-img">
+                              <a href="proyectos/humboldtKosmos.html">
+                              <div class="card-hover">
+                                  <p>Proyecto de realidad aumentada para crear un tablero de realidades mixtas en el que los personajes físicos interactúan con animaciones virtuales.</p>
+
+                              </div>
+                          </div>
+
+                          <div class="card-body text-center">
+                              <h4 class="title">Hackaton Humboldt</h4>
+                              <br>
+                              <p class="date">2019</p>
+                          </div>
+                      </div>
+                  </div>
+                      <!-- PROYECTO  AMITIZA################################################################-->
+                      <div class="col-lg-3 item ar">
+
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="imagenes/amitiza/icon_amitiza.jpg" alt="amitiza" class="img-fluid card-img">
+                                  <a href="proyectos/uruguay25.html">
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada que muestra animaciones sobre marcadores físicos de 2m, y con los que la gente interactuaba.</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Amitiza AR app</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO Inkteractive################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="proyectos/inkteractive.html">
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- PROYECTO Banco de Memorias################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                    <img src="imagenes/BancoDeMemorias/bancoMem1.jpg" class="img-fluid card-img">
+                                    <a href="proyectos/bancomemorias.html">
+                                  <div class="card-hover">
+                                      <p>Instalación interactiva para recuperar la memoria del Barrio de Santa María la Rivera a través de la grabación de memorias en un teléfono intervenido.</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Banco de Memorias</h4>
+                                  <br>
+                                  <p class="date">2018</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO Asi se siente mi Barrio################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/AsiSeSienteMiBarrio/ASSMB-2.jpg" class="img-fluid card-img">
+                                  <a href="proyectos/asiSeSienteMiBarrio.html">
+                                  <div class="card-hover">
+                                      <p>Instalación interactiva para representar las imágenes hápticas creadas en talleres por personas con discapacidad visual.</p>                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Así Se Siente Mi Barrio</h4>
+                                  <br>
+                                  <p class="date">2018</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO Que Quieres Proyectar ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/AsiSeSienteMiBarrio/ASSMB-2.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Instalación interactiva como parte de una investigación para representar las distintas emociones a través de luz y color, expuesta en la UAM Cuajimalpa</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- PROYECTO ################################################################-->
+                      <div class="col-lg-3 item ar seleccion">
+                          <div class="card">
+                              <div class="card-head">
+                                  <img src="imagenes/Inkteractive/icon_inkteractive.jpg" class="img-fluid card-img">
+                                  <a href="www.Inkteractive.com"></a>
+                                  <div class="card-hover">
+                                      <p>Aplicación de realidad aumentada para mostrar animaciones sobre stickers y tatuajes temporales expuesto en el Centro de Cultura Digital</p>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                                  <br>
+                                  <p class="date">2019</p>
+                              </div>
+                          </div>
+                      </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="row footer-row">
+          <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+              <h6 class="text-center">Pablo Sotres-Castrejón ©.
+                <br />
+                Todos los derechos reservados</h6>
+          </div>
+          <div class="col-xs-12 col-md-6 col-sm-6 social-section">
+            <div class="text-center">
+              <a href="https://github.com/psotresc" target="_blank"><img class="logosRedes" src="imagenes/iconos/github-icon.svg" alt="Github Icon"></a>
+              <a href="https://www.instagram.com/pablo_sotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/instagram-icon.svg" alt="Instagram Icon"></a>
+              <a href="https://twitter.com/pablosotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/twitter-icon.svg" alt="Twitter Icon"></a>
+              <a href="https://www.linkedin.com/in/pablosotres/" target="_blank"><img class="logosRedes" src="imagenes/iconos/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+              <a href="https://www.facebook.com/psotresc/" target="_blank"><img class="logosRedes" src="imagenes/iconos/facebook-icon.svg" alt="Facebook Icon"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="">
+
+    </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="scripts/isotope.min.js"></script>
+    <script src="scripts/scriptPortfolio.js"></script>
+
+</html>
+
+<!-- https://www.youtube.com/watch?v=nkqmbRvUk-w -->
