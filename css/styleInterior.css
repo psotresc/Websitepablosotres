@@ -103,6 +103,12 @@ ion-icon {
 
 }
 
+.gif{
+  max-height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* VIDEO****************************************** */
 .iframe-container{
   display: flex;
@@ -116,7 +122,12 @@ ion-icon {
 }
 
 /* GALERIA **************************************/
-
+.gallery{
+  margin: auto;
+  align: center;
+  /* width: 80em; */
+  
+}
 
 .thumbnails{
 	max-height: 100vh;
