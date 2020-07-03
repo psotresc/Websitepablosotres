@@ -4,130 +4,280 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pablo Sotres</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="styleIndex.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.typekit.net/cuh5zzs.css">
+    <title>PSC Website</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"> </script>
+    <script src="scripts/scriptIndex.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="contactJs.js"></script>
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="imagenes/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="imagenes/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="imagenes/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="imagenes/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="imagenes/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="imagenes/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="imagenes/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="imagenes/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="imagenes/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="imagenes/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="imagenes/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="imagenes/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="imagenes/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="imagenes/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="imagenes/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="imagenes/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="imagenes/favicomatic/mstile-310x310.png" />
 
 </head>
+
 <body>
+<!-- NAVBAR ******************************************************* -->
+    <nav class= "navbar navbar-inverse navbar-expand-lg ">
+      <div class="container-fluid">
+      <!-- LOGO -->
+      <a href="index.html" class="navbar-brand"><img class="logo" src="imagenes/logo.png" alt="Logo Pablo Sotres">
+          <p class="logoText">PABLO SOTRES -CASTREJON</p>
+      </a>
+      <!-- COLLAPSE -->
+      <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <ion-icon name="menu"></ion-icon>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="nav navbar-nav d-flex ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="acercademi.html" class="nav-link">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a href="portafolio.html" class="nav-link">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="curriculum.html" class="nav-link">CV</a>
+            </li>
+            <li class="nav-item">
+              <a href="investigacion.html" class="nav-link">Investigación</a>
+            </li>
+            <li class="nav-item">
+              <a href="contacto.html" class="nav-link">Contacto</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="lang" src="imagenes/iconos/language.svg" alt="">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item  " href="index_en.html">English</a>
+                <a class="dropdown-item " href="index_fr.html">Français</a>
 
-    <div>
-
-    <nav>
-        <div class="logo">
-             <a href="index.html"><img src="imagenes/logo.png"></a>
-        </div>
-        <h1 class="nombre">PABLO SOTRES-CASTREJON</h1>
-        <ul>
-            <li></li>
-            <li><a href="acercademi.html" class="active">Acerca de mi</a></li>
-            <li><a href="portafolio.html">Portafolio</a></li>
-            <li><a href="curriculum.html">CV</a></li>
-            <li><a href="#">Investigación</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-
+              </div>
+            </li>
         </ul>
-    </nav>
+      </div>
     </div>
+  </nav>
 
-    <div class = "contenedor1">
-        <h1 class = "titulo">Hola</h1>
-        <h2 class = "titulo">Soy Pablo Sotres-Castrejón</h1>
-        <h4 class="escritor">>
-            <span class="txt-type" data-wait="3000" data-words='["Desarrollador Creativo", "Diseñador de interacción", "Artista digital", "Investigador"]'></span>
-        </h4>
-        <br>
-        <br>
-        <a href="http://"></a>
-        <h6 class = "subtitulo" > <a href = "#acercademi" > Portafolio </a></h1>
-        <h6 class = "subtitulo">Acerca de mi</h1>
-        <h6 class = "subtitulo">Contacto</h1>
+<!-- BIENVENIDA ******************************************************* -->
+  <section id="hero">
+      <div class="container">
+          <h2 class = "titulo">¡Hola!</h2>
+          <h2 class = "titulo">Soy Pablo Sotres-Castrejón</h2>
+          <h4 class="escritor">>
+              <span class="txt-type" data-wait="3000" data-words='["Desarrollador Creativo    ", "Diseñador de interacción    ", "Artista digital / Arte Interactivo     ", "Investigador en arte digital"]'></span>
+          </h4>
+          <br>
+          <br>
+          <h6 class = "subtitulo" > <a href = "portafolio.html" >   > Portafolio </a></h6>
+          <h6 class = "subtitulo" > <a href = "acercademi.html" >   > Acerca de mi </a></h6>
+          <h6 class = "subtitulo" > <a href = "contacto.html" >   > Contacto </a></h6>
+
+      </div>
+  </section>
+
+  <!-- ACERCA DE MI ********************************************************** -->
+  <div class="acerca">
+    <h1 style="color:black">ACERCA DE MI</h1>
+    <hr>
+    <p class="aboutme">Me considero varias cosas, un desarrollador creativo, diseñador interactivo, investigador y artista digital. Actualmente vivo y trabajo en la Ciudad de México. He podido crear y colaborar en varios proyectos con la ventaja de poder participar en diversas industrias tales como desde gobierno hasta festivales de música, pasando por museos, animación, artes entre otros. Y podiendo exponer en diversos espacios públicos tales como el Museo Franz Mayer, el Centro Cultural El Rule, la Biblioteca de la Ciudad de México, entre otros, así como también presentaciones alrededor de la República mexicana, incluyendo dos Auditorios Nacionales. </p>
+    <button class="btnNegro"  onclick="location.href='acercademi.html';" >Ver más</button>
+  </div>
+
+<!-- PROYECTOS ****************************************************************  -->
+<!-- https://codepen.io/JasonDuquain/pen/qVeVga -->
+  <div class="proyectos">
+    <div class="contenedor">
+        <section class="gallery-section clippy">
+          <h2 class="section-heading">PROYECTOS</h2>
+
+           <div class="gallery">
+               <figure class="pic01 two-span-row">
+                   <div class="imgWrap">
+                    <img src="imagenes/intro/img1f.png" alt="Instlaciones Interactivas">
+                   </div>
+                   <figcaption><a class="vincblan" href="portafolio.html">Instalaciones Interactivas</a></figcaption>
+
+               </figure>
+               <figure class="pic02">
+                   <div class="imgWrap">
+                       <img src="imagenes/intro/img4f.png" alt="Motion Graphics">
+                   </div>
+                   <figcaption><a  class="vincblan" href="portafolio.html">Motion Graphics</a></figcaption>
+               </figure>
+               <figure class="pic03">
+                   <div class="imgWrap">
+                       <img src="imagenes/intro/img6f.png" alt="Modelado y Animacion 3d">
+                   </div>
+                   <figcaption><a  class="vincblan" href="portafolio.html">Modelado y Animación 3D</a></figcaption>
+               </figure>
+
+               <figure class="pic03 two-span-row">
+                   <div class="imgWrap">
+                     <img src="imagenes/humboldt/00_humboldt.jpg" alt="realidad aumentada y vision computacional">
+                   </div>
+                   <figcaption><a class="vincblan" href="portafolio.html">Realidad Aumentada y Visión Computacional</a></figcaption>
+               </figure>
+
+                 <figure class="pic04">
+                   <div class="imgWrap">
+                         <img src="imagenes/intro/img2f.png" alt="">
+                   </div>
+                   <figcaption> <a  class="vincblan" href="portafolio.html">Live Performace</a></figcaption>
+               </figure>
+
+                 <figure class="pic05">
+                   <div class="imgWrap">
+                      <img src="imagenes/intro/img5f.png" alt="">
+
+                   </div>
+                   <figcaption> <a  class="vincblan" href="#">Videmapping</a> </figcaption>
+               </figure>
 
 
-    </div>
-    <section class="main">
-        <a class="arrow-wrap" href="#aboutme">
-        <span class="arrow"></span>
-        <!--<span class="hint">scroll</span>-->
-        </a>
 
-
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <br>
-                <h1 class="h1b" >Acerca de mi</h1>
-            </div>
-            <hr>
-            <div class="col-12">
-                <p class="p">Pablo Sotres-Castrejón (Ciudad de México, 1990) es un desarrollador creativo, diseñador interactivo,  investigador y artista digital que reside en la Ciudad de México. Ha colaborado en proyectos de diversas industrias como museos, gobierno y música. Siendo expuesto en espacios como el Centro Cultural El Rule o la Biblioteca de la Ciudad de México, espacios públicos de la ciudad de México, y presentaciones alrededor de la República mexicana, incluyendo dos Auditorios Nacionales.</p>
-                <button>Ver más</button>
-            </div>
+           </div>
+       </section>
+        <div class="contene">
+          <button class="botonProyectos" onclick="window.location.href = 'portafolio.html';" >Ver más</button >
         </div>
-    </div>
+     </div>
+  </div>
 
-    <div class="contenedor-img">
-        <h1 class="h1">Proyectos</h1>
-        <div class="gallery">
-            <figure class="gallery__item gallery__item--1">
-                <img src="imagenes/intro/img1f.png" alt="Gallery image 1" class="gallery__img">
-                <h2>Instalaciones Interactivas</h2>
-                <h3> Todo lo que puedes presionar</h4>
-            </figure>
-            <figure class="gallery__item gallery__item--2">
-                <img src="imagenes/intro/img2f.png" alt="Gallery image 2" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--3">
-                <img src="imagenes/intro/img3f.png" alt="Gallery image 3" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--4">
-                <img src="imagenes/intro/img4f.png" alt="Gallery image 4" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--5">
-                <img src="imagenes/intro/img5f.png" alt="Gallery image 5" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--6">
-                <img src="imagenes/intro/img6f.png" alt="Gallery image 6" class="gallery__img">
-            </figure>
 
+  <div class="row">
+
+    <div class="instagram col-lg-6 col-md-12">
+        <div class="negro">
+          <h1>Instagram </h1>
         </div>
-        <button onclick="window.location.href = 'acercademi.html';" >Ver más</button onclick="window.location.href = 'https://w3docs.com';" >
-    </div>
-
-    <div>
-        <h1 class="h1">INSTAGRAM</h1>
+        <h1 ><a href="https://www.instagram.com/pablo_sotres/" target="_blank" style="color:black;">@pablo_sotres</a></h1>
         <div id="instagram-feed1" class="instagram_feed1"> </div>
     </div>
 
-    <footer>
-        <div> <p>Pablo Sotres 2020. Todos los derechos reservados</p></div>
-    </footer>
+    <div class="contacto col-lg-6 col-md-12">
+        <div class="negro">
+          <h1 >Contacto</h1>
+        </div>
+        <div>
+          <div class="informacion">
+              <h3 >Para cualquier consulta no dudes en contactarme: </h3>
+              <p> - <b>Correo:</b> contact(at)pablosotres.com </p>
+              <p> - <b>Tel:</b> Cinco - Cinco 37179857</p>
 
-    <script src="dist/InstagramFeed.min.js"></script>
-<script>
-    (function(){
-        new InstagramFeed({
-            'username': 'pablo_sotres',
-            'container': document.getElementById("instagram-feed1"),
-            'display_profile': true,
-            'display_biography': true,
-            'display_gallery': true,
-            'callback': null,
-            'styling': true,
-            'items': 8,
-            'items_per_row': 4,
-            'margin': 1
-        });
-    })();
-</script>
+            <form action="https://formspree.io/psotresc@gmail.com"  method="POST">
+                <label>
+                    Nombre:
+                    <br>
+                    <input class="name">
+                </label>
+                <br>
+                <label>
+                    Apellido:
+                    <br>
+                    <input class="lastName">
+                </label>
+                <br>
+                <label>
+                    Correo:
+                    <br>
+                    <input type ="email" name="email" class="email">
+                </label>
+                <br>
+                <label>
+                    Asunto:
+                    <br>
+                    <input type ="text" name="subject" class="subject">
+                </label>
+                <br>
+                <label >
+                    Mensaje:
+                    <br>
+                    <textarea class="message" name="message"></textarea>
+                </label>
+                <div class="status">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="isotope.min.js"></script>
-    <script src="script.js"></script>
-    <script src="dist/InstagramFeed.min.js"></script>
+                </div>
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container footer-container">
+      <div class="row footer-row">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+            <h6 class="text-center">Pablo Sotres-Castrejón ©.
+              <br />
+              Todos los derechos reservados</h6>
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-6 social-section">
+          <div class="text-center">
+            <a href="https://github.com/psotresc" target="_blank"><img class="logosRedes" src="imagenes/iconos/github-icon.svg" alt="Github Icon"></a>
+            <a href="https://www.youtube.com/user/pso3c" target="_blank"><img class="logosRedes" src="imagenes/iconos/youtube-icon.svg" alt="Youtube Icon"></a>
+            <a href="https://www.instagram.com/pablo_sotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/instagram-icon.svg" alt="Instagram Icon"></a>
+            <a href="https://twitter.com/pablosotres" target="_blank"><img class="logosRedes" src="imagenes/iconos/twitter-icon.svg" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/in/pablosotres/" target="_blank"><img class="logosRedes" src="imagenes/iconos/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+            <a href="https://www.facebook.com/psotresc/" target="_blank"><img class="logosRedes" src="imagenes/iconos/facebook-icon.svg" alt="Facebook Icon"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="scripts/instagram/dist/InstagramFeed.min.js"></script>
+  <script>
+  (function(){
+      new InstagramFeed({
+          'username': 'pablo_sotres',
+          'container': document.getElementById("instagram-feed1"),
+          'display_profile': false,
+          'display_biography': false,
+          'display_gallery': true,
+          'callback': null,
+          'styling': true,
+          'items': 12,
+          'items_per_row': 4,
+          'margin': 1
+      });
+  })();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 </body>
+
 </html>

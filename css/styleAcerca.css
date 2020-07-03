@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+p{
+  margin: 0;
+}
+
+/* NAV BAR ******************************************** */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 8vh;
+  max-height: 10vh;
+  z-index: 99999;
+}
+
+.nav-link{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+  color:black;
+  background-color: white;
+}
+
+.logo {
+    transition: .5s;
+    min-width: 30px;
+    max-width: 40px;
+}
+
+.logoText{
+  font-family: 'Teko', sans-serif;
+  font-size: 2.5vh;
+  color: black;
+  transition: .5s;
+  min-width: 160px;
+  max-width: 160px;
+  display: inline;
+  padding-left: .5vh;
+}
+
+ion-icon {
+  color: black;
+  font-size: 4vh;
+}
+
+.navbar-toggler{
+  font-size: 40px;
+}
+
+.navbar-toggler:focus{
+  outline:none;
+}
+
+.navbar-toggle {
+    margin: 8px 15px 8px 0;
+    padding: 4px 5px;
+}
+
+/* ACERCA DE MI **************************************************************  */
+
+
+.container{
+  padding: 2vh 0;
+
+}
+
+.titulo {
+  font-family: 'Teko', sans-serif;
+  font-size: 3rem;
+}
+
+.subtitulo{
+  text-align: right;
+  font-family: 'Teko', sans-serif;
+}
+
+.contImagen{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+
+.imagen{
+  max-width: 90%;
+}
+
+.texto{
+  font-size: 14px;
+
+}
+
+.negro{
+  background-color: black;
+}
+
+.years{
+  color: white;
+  padding-left: 2vw;
+  font-family: 'Teko', sans-serif;
+}
