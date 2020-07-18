@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Portafolio de los projects de Pablo Sotres Castrejon en diseño interactivo."></head>
+  <title>PSC-Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/master.css">
+  <link rel="stylesheet" href="../css/stylePortafolio.css">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../imagenes/favicomatic/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../imagenes/favicomatic/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../imagenes/favicomatic/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../imagenes/favicomatic/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../imagenes/favicomatic/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../imagenes/favicomatic/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../imagenes/favicomatic/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../imagenes/favicomatic/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="../imagenes/favicomatic/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="../imagenes/favicomatic/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../imagenes/favicomatic/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../imagenes/favicomatic/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../imagenes/favicomatic/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="../imagenes/favicomatic/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="../imagenes/favicomatic/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="../imagenes/favicomatic/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="../imagenes/favicomatic/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="../imagenes/favicomatic/mstile-310x310.png" />
+
+</head>
+
+<body>
+  <!-- NAVBAR ******************************************************* -->
+      <nav class= "navbar navbar-inverse navbar-expand-lg ">
+        <div class="container-fluid">
+        <!-- LOGO -->
+        <a href="index_en.html" class="navbar-brand"><img class="logo" src="../imagenes/logo.png" alt="Logo Pablo Sotres">
+            <p class="logoText">PABLO SOTRES-CASTREJON</p>
+        </a>
+        <!-- COLLAPSE -->
+        <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="nav navbar-nav d-flex ml-auto">
+              <li class="nav-item">
+                <a href="index_en.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutMe.html" class="nav-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="resume.html" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a href="investigation.html" class="nav-link">Investigation</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="lang" src="imagenes/iconos/language_w.svg" alt="">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item  " href="../portafolio.html">Español</a>
+                  <a class="dropdown-item " href="../fr/projets.html">Francais</a>
+
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- projects *********************************************************************************** -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- SECCIONES ################################################################-->
+        <ul class="filters text-center">
+          <li class="active" data-filter="*"><a href="#!">All</a></li>
+          <li data-filter=".seleccion"><a href="#!">Selection</a></li>
+          <li data-filter=".instalaciones"><a href="#!">Interactive Installations</a></li>
+          <li data-filter=".ai"><a href="#!">Artificial Intelligence</a></li>
+          <li data-filter=".ar"><a href="#!">Augmented Reality</a></li>
+          <li data-filter=".videomapping"><a href="#!">Videomapping</a></li>
+          <li data-filter=".animaciones"><a href="#!">3D & Motion Graphics</a></li>
+          <li data-filter=".web"><a href="#!">Web Development</a></li>
+
+
+        </ul>
+
+        <div class="projects">
+          <div class="row">
+
+
+            <!-- Sitio Web Advisory TR-->
+            <div class="col-lg-3 col-md-6 item web">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_advisoryTr.jpg" alt="La Gusana Ciega" class="img-fluid card-img">
+                  <a href="projects/advisorytr.html">
+                    <div class="card-hover">
+                      <p>Web site for the consulting firm TR advisory </p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-left">
+                  <h4 class="title">Website TR Advisory </h4>
+                  <p class="date">2020</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  Libro Viajero-->
+            <!-- <div class="col-lg-3 col-md-6 item web">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_gusanaVisuales.jpg" alt="La Gusana Ciega" class="img-fluid card-img">
+                  <a href="projects/gusanavisuales.html">
+                    <div class="card-hover">
+                      <p>Creación de Sitio web de libro viajero</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-left">
+                  <h4 class="title">Sitio web Libro Viajero </h4>
+                  <p class="date">2020</p>
+                </div>
+              </div>
+            </div> -->
+
+
+            <!-- Video Lucinne-->
+            <!-- <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_gusanaVisuales.jpg" alt="La Gusana Ciega" class="img-fluid card-img">
+                  <a href="projects/gusanavisuales.html">
+                    <div class="card-hover">
+                      <p>Videoclip de la banda Lucinne</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-left">
+                  <h4 class="title">Videoclip Lucinne - A medias</h4>
+                  <p class="date">2020</p>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Animaciones Guasana Ciega -->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_gusanaVisuales.jpg" alt="La Gusana Ciega" class="img-fluid card-img">
+                  <a href="projects/gusanavisuales.html">
+                    <div class="card-hover">
+                      <p>Creation of visuals for the live show for the band La Gusana Ciega</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-left">
+                  <h4 class="title">Visuals for Rock Band La Gusana Ciega</h4>
+                  <p class="date">2020</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  URUGUAY-->
+            <div class="col-lg-3  col-md-6  item instalaciones seleccion">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_uruguay.jpg" alt="uruguay 25" class="img-fluid card-img">
+                  <a href="projects/uruguay25.html">
+                    <div class="card-hover">
+                      <p>Project that led to an installation with 3 modules to generate appropriation with merchants.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-left">
+                  <h4 class="title">Uruguay 25: Technology and appropriation </h4>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  KOSMOS ################################################################-->
+            <div class="col-lg-3 col-md-6 col-md-6 item ar seleccion">
+
+              <div class="card">
+
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_humboldt.jpg" alt="humboldt Kosmos" class="img-fluid card-img">
+                  <a href="projects/humboldtKosmos.html">
+                    <div class="card-hover">
+                      <p>Augmented reality project to create a mixed reality board in which physical characters interact with virtual animations.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <h4 class="title"> Humboldt Kosmos</h4>
+                  <br>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- PROYECTO  Arte en Movimiento  ################################################################-->
+            <div class="col-lg-3 col-md-6 item ar seleccion">
+
+              <div class="card">
+
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_arte.jpg" alt="Arte en Movimiento" class="img-fluid card-img">
+                  <a href="projects/arteMovimiento.html">
+                    <div class="card-hover">
+                      <p>AR & art </p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <h4 class="title">Art in Motion</h4>
+                  <br>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  Audio Paisaje Dr. ATL ################################################################-->
+            <div class="col-lg-3 col-md-6 item">
+
+              <div class="card">
+
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_atl.jpg" alt="Audio Dr Atl" class="img-fluid card-img">
+                  <a href="projects/dratl.html">
+                    <div class="card-hover">
+                      <p>Audio landscape for the Dr. Atl exhibition at the National Art Museum</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <h4 class="title"> Audio Landscape - Dr. ATL</h4>
+                  <br>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  AMITIZA################################################################-->
+            <div class="col-lg-3 col-md-6 item ar">
+
+              <div class="card">
+
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_amitiza1.jpg" alt="amitiza" class="img-fluid card-img">
+                  <a href="projects/amitiza.html">
+                    <div class="card-hover">
+                      <p>Augmented reality app that shows animations on physical markers that people interacted with.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Amitiza AR app</h4>
+                  <br>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Inkteractive################################################################-->
+            <div class="col-lg-3 col-md-6 item ar seleccion">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_inkteractiveAll.jpg" class="img-fluid card-img" alt="Imagen de Inkteractive">
+                  <a href="projects/inkteractive.html">
+                    <div class="card-hover">
+                      <p>Augmented reality application to show animations over stickers and temporary tattoos, exposed at the Digital Culture Center.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Inkteractive - Yami Ichi</h4>
+                  <br>
+                  <p class="date">2019</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Banco de Memorias################################################################-->
+            <div class="col-lg-3 col-md-6 item instalaciones seleccion">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_bancoMem1.jpg" class="img-fluid card-img" alt="Imagen de Banco de memorias">
+                  <a href="projects/bancomemorias.html">
+                    <div class="card-hover">
+                      <p>Interactive installation to recover the memory of the Barrio de Santa María la Rivera through the recording of memories on a hacked telephone.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Banco de Memorias</h4>
+                  <br>
+                  <p class="date">2018</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Asi se siente mi Barrio################################################################-->
+            <div class="col-lg-3 col-md-6 item instalaciones seleccion">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_assmb.jpg" class="img-fluid card-img" alt="Imagen de Ai se siente mi barrio">
+                  <a href="projects/asiSeSienteMiBarrio.html">
+                    <div class="card-hover">
+                      <p>Interactive installation to represent the haptic images created in workshops by people with visual disabilities.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Así Se Siente Mi Barrio</h4>
+                  <br>
+                  <p class="date">2018</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Que Quieres Proyectar ################################################################-->
+            <div class="col-lg-3 col-md-6 item instalaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_queQuieres.jpg" class="img-fluid card-img" alt="Imagen de Que quieres proyectar">
+                  <a href="projects/quequieresproyectar.html">
+                    <div class="card-hover">
+                      <p>Interactive installation as part of a research to  represent different emotions through light and color, exhibited at the UAM Cuajimalpa</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">What do you want to project?</h4>
+                  <br>
+                  <p class="date">2018</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO  Business Prospect################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_bp.jpg" class="img-fluid card-img" alt="Imagen de Business prospect">
+                  <a href="projects/businessprospect.html">
+                    <div class="card-hover">
+                      <p> Motion graphics video for the explanation of the Business prospect project.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title"> Business Prospect Video</h4>
+                  <br>
+                  <p class="date">2017</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Drumapping ################################################################-->
+            <div class="col-lg-3 col-md-6 item seleccion instalaciones videomapping">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_drummappin1.jpg" class="img-fluid card-img" alt="Imagen de Drumapping">
+                  <a href="projects/drumapping.html">
+                    <div class="card-hover">
+                      <p>Interactive drum kit that transforms beats into animations through videomapping</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Drumapping</h4>
+                  <br>
+                  <p class="date">2018</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Videomapping Jam Tlatelolco ################################################################-->
+            <div class="col-lg-3 col-md-6 item videomapping animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_mappingTlatelolco2.jpg" class="img-fluid card-img" alt="Imagen de Jam Tlatelolco">
+                  <a href="projects/mappingtlatelolco.html">
+                    <div class="card-hover">
+                      <p>Video Mapping in the Plaza ofTlatelolco representing part of its history.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Video Mapping Jam Tlatelolco</h4>
+                  <br>
+                  <p class="date">2017</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO 3D para Arte y Biodiversidad ################################################################-->
+            <div class="col-lg-3 col-md-6  item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_arteyBio.jpg" class="img-fluid card-img" alt="Imagen de Arte y Biodiversidad">
+                  <a href="projects/arteybio.html">
+                    <div class="card-hover">
+                      <p>Digital sculptures for the conservation of Flora and Fauna as well as the cultural heritage of the state of Morelos.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">3D for Art and Biodiversity</h4>
+                  <br>
+                  <p class="date">2017</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Video Coorporativo Paquilea ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_paquilea.jpg" class="img-fluid card-img" alt="Imagen de Video Paquilea">
+                  <a href="projects/paquilea.html">
+                    <div class="card-hover">
+                      <p>Corporate video of the company Paquilea, created with motion graphics and stop motion.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Paquilea Corporate Video</h4>
+                  <br>
+                  <p class="date">2016</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Animaciones Congreso Internacional de Astronaútica################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_astronautica.jpg" class="img-fluid card-img" alt="Imagen de CIA">
+                  <a href="projects/astronautica.html">
+                    <div class="card-hover">
+                      <p>Collaboration to create animated graphics for the International Astronautical Congress.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title"> International Astronautical Congress</h4>
+                  <br>
+                  <p class="date">2016</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO Render 3D Vending Machine ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_vending.jpg" class="img-fluid card-img" alt="Imagen de Vending Machine">
+                  <a href="projects/vendingmachine.html">
+                    <div class="card-hover">
+                      <p>3D rendering for an  interactive vending machine to play "foosball"</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">3D Render Vending Machine </h4>
+                  <br>
+                  <p class="date">2016</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Videmapping Nutramigen ################################################################-->
+            <div class="col-lg-3 col-md-6 item videomapping seleccion">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_nutramigen.jpg" class="img-fluid card-img" alt="Imagen de Nutramigen">
+                  <a href="projects/nutramigen.html">
+                    <div class="card-hover">
+                      <p>Video mapping for the presentation of Nutramigen, creation of mapping on 2 cylindrical structures at 270 degrees.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Video mapping Nutramigen </h4>
+                  <br>
+                  <p class="date">2013</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  Diseño Show Quala ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_quala.jpg" class="img-fluid card-img" alt="Imagen de Show Quala">
+                  <a href="projects/quala.html">
+                    <div class="card-hover">
+                      <p>Creation of graphics, mograph and 3D animation for the  presentation  of the new brands the Quala company. </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Show  Design for Quala </h4>
+                  <br>
+                  <p class="date">2013</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  Visuales La Gusana Ciega - De Merlina al Conejo en el Sombrero ################################################################-->
+            <div class="col-lg-3 col-md-6  item  animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_gusana.jpg" class="img-fluid card-img" alt="Imagen de La Gusana Ciega">
+                  <a href="projects/gusanaauditorio.html">
+                    <div class="card-hover">
+                      <p>Animations for the presentation of the National Auditorium of the rock band La Gusana Ciega.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">La Gusana Ciega - National Auditorium  </h4>
+                  <br>
+                  <p class="date">2013</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROYECTO  Animaciones para Los Ängeles del Infierno ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_angeles.jpg" class="img-fluid card-img" alt="Imagen de Los ángeles del infierno">
+                  <a href="projects/angelesInfierno.html">
+                    <div class="card-hover">
+                      <p>Animations for the visuals of the rock band Los Angeles del Infierno</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Animations for Los Angeles del Infierno</h4>
+                  <br>
+                  <p class="date">2013</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO  Demo Videomapping IMS ################################################################-->
+            <div class="col-lg-3 col-md-6 item videomapping animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_IMSdemo.jpg" class="img-fluid card-img" alt="Imagen de IMS">
+                  <a href="projects/demos.html">
+                    <div class="card-hover">
+                      <p>Collection of Demos made for events and rock bands.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Demos for events and rock bands.</h4>
+                  <br>
+                  <p class="date">2012</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Enjambre - Auditorio Nacional ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones videomapping">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_enjambreAuditorio.jpg" class="img-fluid card-img" alt="Imagen de Enjambre">
+                  <a href="projects/enjambre.html">
+                    <div class="card-hover">
+                      <p>Animations and video projection for the presentation of the National Auditorium of the rock band Enjambre.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Enjambre - National Auditorium</h4>
+                  <br>
+                  <p class="date">2012</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Personajes 3D La Gusana Ciega ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_personajeGerman.jpg" class="img-fluid card-img" alt="Imagen de La Gusana Ciega">
+                  <a href="projects/gusanaPersonajes.html">
+                    <div class="card-hover">
+                      <p>Creation of 3D characters for the rock band La Gusana Ciega.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">3D Characters for La Gusana Ciega</h4>
+                  <br>
+                  <p class="date">2012</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Video Informa Anual ALSEA ################################################################-->
+            <div class="col-lg-3 col-md-6 item animaciones">
+              <div class="card">
+                <div class="card-head">
+                  <img src="../imagenes/00_minis/00_alsea.jpg" class="img-fluid card-img" alt="Imagen de Alsea">
+                  <a href="projects/alsea.html">
+                    <div class="card-hover">
+                      <p>Animation with motion graphics for the report of activities of the company Alsea.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">ALSEA Annual Video Report </h4>
+                  <br>
+                  <p class="date">2011</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROYECTO Video Informa Anual ALSEA ################################################################-->
+            <div class="col-lg-3 col-md-6 item ai">
+              <div class="card">
+                <div class="card-head">
+                  <a href="projects/alsea.html">
+                    <div class="card-hover">
+                      <p>Soon will be posting this content.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="title">Soon... </h4>
+                  <br>
+                  <p class="date">2020</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="row footer-row">
+          <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+            <h6 class="text-center">Pablo Sotres-Castrejón ©.
+              <br />
+              Todos los derechos reservados</h6>
+          </div>
+          <div class="col-xs-12 col-md-6 col-sm-6 social-section">
+            <div class="text-center">
+              <a href="https://github.com/psotresc" target="_blank"><img class="logosRedes" src="../imagenes/iconos/github-icon.svg" alt="Github Icon"></a>
+              <a href="https://www.youtube.com/user/pso3c" target="_blank"><img class="logosRedes" src="../imagenes/iconos/youtube-icon.svg" alt="Youtube Icon"></a>
+              <a href="https://www.instagram.com/pablo_sotres" target="_blank"><img class="logosRedes" src="../imagenes/iconos/instagram-icon.svg" alt="Instagram Icon"></a>
+              <a href="https://twitter.com/pablosotres" target="_blank"><img class="logosRedes" src="../imagenes/iconos/twitter-icon.svg" alt="Twitter Icon"></a>
+              <a href="https://www.linkedin.com/in/pablosotres/" target="_blank"><img class="logosRedes" src="../imagenes/iconos/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+              <a href="https://www.facebook.com/psotresc/" target="_blank"><img class="logosRedes" src="../imagenes/iconos/facebook-icon.svg" alt="Facebook Icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="../scripts/isotope.min.js"></script>
+  <script src="../scripts/scriptPortfolio.js"></script>
+
+</body>
+
+</html>
+
+<!-- https://www.youtube.com/watch?v=nkqmbRvUk-w -->

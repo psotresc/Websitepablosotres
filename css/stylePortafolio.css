@@ -48,6 +48,10 @@ ion-icon {
     margin: 8px 15px 8px 0;
     padding: 4px 5px;
 }
+
+.container{
+  /* height: 100vh; */
+}
 /* TARJETAS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
 ul.filters{
     display: block;
@@ -161,4 +165,8 @@ h4.title{
 .date{
   text-align: right;
   font-weight: bold;
+}
+
+footer{
+
 }

@@ -21,6 +21,7 @@ h6 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   min-height: 10vh;
   max-height: 12vh;
+  padding: 2vh 3vw;
 }
 
 .nav-link{
@@ -39,11 +40,10 @@ h6 {
 
 .logoText{
   font-family: 'Teko', sans-serif;
-  font-size: 2.5vh;
+  font-size: 1.5rem;
   color: white;
   transition: .5s;
-  min-width: 160px;
-  max-width: 160px;
+
   display: inline;
   padding-left: .5vh;
 }
@@ -66,22 +66,24 @@ ion-icon {
     padding: 4px 5px;
 }
 
-
-
-/* BIENVENIDA******************************************* */
-#hero{
+.dropdown-menu{
   background-color: black;
-  height: 70vh;
-  padding-left: 3vh;
-  display: flex;
-  align-items: center;
-  justify-content: center
+}
+
+.idiomas{
+  /* float: right; */
+  text-align: right;
+}
+/* BIENVENIDA******************************************* */
+.bienvenida5{
+  background-color: black;
+  padding: 7vh 4vw;
 }
 
 .titulo{
     color:white;
     font-family: 'Inconsolata', monospace;
-    font-size: 7vh;
+    font-size: 3rem;
 
 
 }
@@ -102,16 +104,25 @@ ion-icon {
     font-weight: 700;
 }
 
+.lenguas{
+  text-align: center;
+}
+
+.subtitulos{
+  padding-top: 5vh;
+}
 /* ACERCA DE MI ******************************** */
+#acercademi{
+ padding: 2rem 0;
+}
 .acerca{
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  margin-left: 15%;
-  margin-right: 15%;
+  padding: 0 15%;
 }
 
 .btnNegro{
+  font-family: Teko;
+  font-size: 1.5rem;
   background-color: black;
   color: white;
   padding: 0 10vw;
@@ -149,12 +160,12 @@ ion-icon {
 figure {
     display: flex;
     flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    border-radius: 6px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* border-radius: 6px; */
     /* background-color: #333; */
     padding: 7px;
-    margin: 3px;
+    /* margin: 3px; */
 }
 
 
@@ -168,14 +179,14 @@ div.imgWrap {
 .gallery img {
     display: inline-block;
     width: 100%;
-    height: auto;
+    /* height: auto; */
     flex: 1;
     object-fit: cover;
     transition: all 300ms ease-out;
 }
 
 figure:hover img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     opacity: 1;
 }
 
@@ -202,14 +213,14 @@ figure:hover img {
 figcaption {
     font-family: 'Teko', sans-serif;
     font-size: 1.5rem;
-    text-align: right;
+    text-align: center;
     margin-top: 3px;
-    border-top: 1px solid rgba(255,255,255,1);
+    /* border-top: 1px solid rgba(255,255,255,1); */
     padding-top: 5px;
     color: rgba(255,255,255,.8);
 }
 
-figcaption .a{
+figcaption a{
   padding: 0 0;
   margin: 0 0;
   color: white;
@@ -237,15 +248,33 @@ figcaption .a{
   padding-top: 2vh;
 }
 .botonProyectos{
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-family: Teko;
   padding: .5vh 20vw;
   display: block;
   border: none;
+  margin-bottom: 1.5rem
 }
 
 .vincblan{
   color: white;
 }
+
+a:hover{
+  color: grey;
+}
 /* INSTAGRAM *************************************** */
+
+#instaCont .row{
+  margin: 0;
+  padding: 0;
+}
+.losdos{
+  padding: 0;
+  margin: 0;
+}
 .instagram{
     margin-top: 10px;
     width: 100%;
